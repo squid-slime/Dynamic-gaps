@@ -9,7 +9,9 @@ download and install python-i3ipc
 
 download/copy file ending in .py extention from ![here](https://github.com/squid-slime/Dynamic-gaps/blob/main/dynamic_gaps.py)
 
-put the file somewhere safe, i use /home/user/.config/sway/scripts/file.py
+creat(file.py) or download the file somewhere safe, i use /home/user/.config/sway/scripts/file.py
+
+chmod +x /path/to/file.py
 
 add `exec python /path/to/script.py` to your sway config.
 
